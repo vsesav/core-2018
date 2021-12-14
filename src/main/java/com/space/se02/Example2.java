@@ -27,4 +27,17 @@ class Num {}
 
 class Int extends Num {}
 
-class LongInt  extends Int {}
+class LongInt  extends Int {
+    static int x;
+
+    public void number(int x) {
+        this.x = x;
+        System.out.println(x);
+    }
+
+    //second
+    public void numberPlus(int x) {
+        this.x = x + 1;
+        System.out.println(this.x);
+    }
+}
